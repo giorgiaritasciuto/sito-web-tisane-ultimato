@@ -67,7 +67,6 @@ header nav a:hover {
 }
 
 header .off-screen-menu ul {
-    padding-right: 20px;
     list-style: none;
     font-weight: bold;
     display: flex;
@@ -397,11 +396,13 @@ footer nav a:hover {
     }
 
     header .off-screen-menu ul {
-        padding-right: 20px;
         list-style: none;
         font-weight: bold;
         display: flex;
-        gap: 20px;
+        gap: 6px;
+    }
+    .contenitore{
+        display: grid;
     }
     
     .off-screen-menu {
@@ -423,6 +424,7 @@ footer nav a:hover {
     .off-screen-menu.active {
         display: grid;
         align-items: center;
+        grid-row: 2;
     }
     
     ul{
@@ -450,6 +452,8 @@ footer nav a:hover {
         align-self: flex-end;
         margin-top: 12px;
         margin-bottom: 12px;
+        display: flex;
+        flex-direction:row-reverse;
     }
     
     
@@ -556,6 +560,7 @@ footer nav a:hover {
         padding: 10px 30px;
         font-size: 17px;
         margin-right: 70px;
+        margin: auto;
     }
 
     .fasi div,
