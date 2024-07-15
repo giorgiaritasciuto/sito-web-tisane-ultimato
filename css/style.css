@@ -405,7 +405,7 @@ footer nav a:hover {
     }
     
     .off-screen-menu {
-        background-color:  rgb(255, 255, 255);
+        background-color: #E9E9E9;
         max-width: 450px;
         top: 0;
         display: none;
@@ -446,7 +446,7 @@ footer nav a:hover {
     } 
     
     nav {
-        background-color: rgb(255, 255, 255);
+        background-color: #E9E9E9;
         align-self: flex-end;
         margin-top: 12px;
         margin-bottom: 12px;
